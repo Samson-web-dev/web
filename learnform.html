@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body{
+        background: linear-gradient(45deg,rgba(255, 0, 0, 0.562),rgba(0, 128, 128, 0.562),rgba(0, 0, 255, 0.575),rgba(255, 255, 0, 0.575),rgba(0, 0, 0, 0.479));
+        
+    }
+    form{
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+        margin: 1.6px;
+        padding: .19em;
+        width: 750px;
+        height: 100%;
+    }
+
+    legend{
+        text-decoration: none;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+    }
+    fieldset{
+        margin: 2px;
+        padding: .9em;
+    }
+</style>
+<body>
+    <form action="get">
+        <fieldset>
+            <legend>form</legend>
+        <label for="fname"> firstname</label>
+        <input type="text" placeholder="first name" required>
+        <label for="middlename">middlename</label>
+        <input type="mname" placeholder="middlename" required><br>
+        <label for="lastname">lastname</label>
+        <input type="surname" placeholder="surname" required>
+           <p>Gender</p>
+            <input type="radio" name="radio" id="radio">
+            <label for="male">male</label><br>
+            <input type="radio" name="radio" id="radio">
+            <label for="female">female</label><br>
+            <input type="radio" name="radio" id="radio">
+            <label for="other">other</label><br>
+            <label for="dob">Date Of Birth</label>
+            <input type="date" id="date" name="date">
+            <fieldset>
+                <legend>Contact info</legend>
+                <input type="email" placeholder="email" required>
+                <span class="tick"></span>
+                <input type="number" placeholder="telephone" required>
+                <span class="tick"></span>
+           
+            <select>
+                <option>email</option>
+                <option>telephone</option>
+            </select>
+             </fieldset>
+    </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,236 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../og.css/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="../css/index-5.css">
+</head>
+ <style>
+    body{
+        background-color: rgba(240, 255, 255, 0.527);
+    }
+
+    *{
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    a{
+        text-decoration: none;
+        color: aqua;
+    }
+    .clearfix{
+        clear: both;
+    }
+
+    .container{
+        width:100%;
+        box-sizing: border-box;
+    }
+
+    .slider{
+        height: 700px;
+        background: linear-gradient(-45deg, rgba(238, 255, 0, 0.507),rgba(0, 0, 255, 0.562),rgba(255, 255, 0, 0.568)), url(../img/seabackground.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .clearfix{
+        clear: both;
+    }
+
+    .layout{
+        background: burlywood;
+        padding: .5em;
+    } 
+
+    #banner,
+    #navbar{
+        float: left;
+    }
+    #navbar{
+        float: right;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #banner h1{
+        font-size: 1.7em;
+        text-transform: capitalize;
+        margin-left: .9em;
+        text-shadow: 1px 2px 1px solid black;
+    }
+    #banner h1:hover{
+        transition: 2s;
+        font-size: larger;
+         font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-style: oblique;
+        color: brown;
+    }
+
+    #navbar a{
+        margin: .6em;
+        font-size: 1em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transition: 2s;
+        color: #000;
+        text-transform: capitalize;
+    }
+    #navbar a.active{
+        padding: .4em;
+        background: brown;
+        color: black;
+        border-radius: .3em;
+        box-shadow: 2px 4px 2px #000;
+    }
+    #navbar a.active:hover{
+        color: burlywood;
+        font-variant: small-caps;
+        font-style: oblique;
+        transition: 2s;
+    }
+
+    #navbar a:hover{
+        color: brown;
+        font-variant: small-caps;
+        font-style: oblique;
+    }
+
+    .layout{
+        background: rgba(r
+        gba(255, 0, 0, 0.774), rgba(0, 128, 0, 0.541), blue, alpha) url(../img/seabackground.jpg);
+        padding: .9em;
+    }
+
+    .section-header{
+        text-align: left;
+        transform: translateY(5em);
+        margin: 1.2em;
+    }
+
+    .section-header h2{
+        font-size: 3em;
+        font-variant:small-caps;
+        text-shadow: 2px 3px 2px solid black;
+    }
+
+    .section-header h2 span{
+        font-variant: small-caps;
+        color: brown;
+        font-size: .7em;
+    }
+
+    .section-header a{
+        margin: 1em;
+        font-size: 1.4em;
+        /* text-transform: uppercase;
+        background: transparent;
+        color: brown;
+        padding: .4em; */
+    }
+    button a{
+        text-transform: capitalize;
+        color: #000;
+    }
+    .button{
+        background-color: burlywood;
+        border-radius: 30%;
+    }
+    button:hover{
+        color: goldenrod;
+    }
+
+    input{
+        margin: 5px 0px;
+        height: 35px;
+        padding: 15px;
+        /* float: right; */
+    }
+    #regs{
+        float: right;
+        height: 20%;
+    }
+
+    button.b2{
+        height: 35px;
+        margin: 5px 0px;
+        background-color: #333;
+        /* border: none; */
+        border-radius: 5px;
+        color: whitesmoke;
+    }
+    fieldset{
+        width: 40%;
+        height: 20%;
+        float: right;
+        background-color: rgba(0, 0, 0, 0.788);
+    }
+    legend{
+        color: blue;
+    }
+    form{
+        width: 90%;
+        transform: translateY(-2em);
+        float: right;
+        height: 80%;
+    }
+
+</style>  
+<body>
+    <div class="container">
+        <div class="slider">
+            <div class="layout">
+            <div id="banner">
+                <h1>PraRoz 
+                    <i class="fa-solid fa-shop"></i></h1>
+            </div>
+            <div id="navbar">
+                <a href="#">home 
+                    <i class="fa-solid fa-home"></i> </a>
+                <a href="#">about 
+                    <i class="fa-solid fa-question"></i></a>
+                <a href="#">service 
+                    <i class="fa-solid fa-user"></i></a>
+                <a href="#">design
+                    <i class="fa-solid fa-map"></i></a>
+                <a href="#" class="active">contact
+                     <i class="fa-solid fa-phone"></i></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+            <div class="section-header">
+                <h2>Web Design &<br>
+                    <span>Development</span><br>Course</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis autem suscipit eius labore,<br>
+                         ullam accusantium architecto ratione quo maxime. Molestias,<br> 
+                         animi eius repellendus at aperiam accusantium eveniet repudiandae ea placeat.</p>
+                         <button class="b2"><a href="index-3.html" class="reds">Join Us</a></button>
+            <!-- <div id="regs">
+                 <form action="#">
+                            <fieldset>
+                                <legend>register now</legend>
+                                <input type="text" name="email" id="email" placeholder="your email address">
+                                <input type="text" name="password" id="password" placeholder="Enter Password Here">
+                            </fieldset>
+                  </form>
+            </div> -->
+            <form action="#">
+                <fieldset>
+                <legend>registeration page</legend>
+                <div id="regs">
+                    <input type="email"
+                    placeholder="email">
+                    <input type="password"
+                    placeholder="Enter Password Here">
+                    <button>Login</button>
+            </fieldset>
+            </form>
+        
+            </div>
+            </div>
+          </div>
+        </div>
+</body>
+</html>
