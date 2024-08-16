@@ -1,0 +1,139 @@
+
+  body{
+    background-color: #bcbcc5;
+  }
+
+  *{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .clearfix{
+    clear: both;
+  }
+
+  .container{
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .silder{
+    height: 500px;
+    background: linear-gradient(-45deg,rgba(0, 0, 255, 0.678), rgba(165, 42, 42, 0.603)), url(../img/imagery.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .clearfix{
+    clear: both;
+  }
+
+  #banner,
+  #navbar{
+    float: left;
+    
+  }
+
+  #banner h2{
+    font-size: 1.7em;
+    text-transform: uppercase;
+    color: aqua;
+    text-shadow: 1px 2px 1px #000;
+    margin-left: 1em;
+  }
+
+
+  #navbar a{
+    margin: .6em;
+    font-size: 1em;
+    text-transform: capitalize;
+    color: aliceblue;
+    transition: 1s;
+    margin-right: 2em;
+  }
+
+  #navbar a.active{
+    padding: .4em;
+    background: aqua;
+    color: #000;
+    border-radius: .2em;
+    box-shadow: 2px 3px 2px #000;
+  }
+
+  #navbar a:hover{
+    color: goldenrod;
+    font-variant: small-caps;
+    font-style: oblique;
+  }
+  
+
+  #navbar {
+    float: right;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+
+  .layout{
+    background-color: brown;
+    padding: .6em;
+  }
+
+  .section-header{
+    text-align: center;
+    transform: translateY(7em);
+  }
+
+  .section-header h1{
+    font-size: 3em;
+    font-variant: small-caps;
+    /* color: goldenrod; */
+    color: brown;
+    text-shadow: 3px 2px 3px #000;
+  }
+
+  .section-header h1 span{
+    font-size: 1em;
+    color: blue;
+  }
+
+  .section-header a{
+    margin: 1em;
+    font-size: 1.4em;
+  }
+
+  .section-header a.reds{
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    background: transparent;
+    /* box-shadow: 3px 2px 3px #000; */
+    color: wheat;
+    padding: .4em;
+  }
+
+  .section-header a.red{
+    text-transform: uppercase;
+    
+    background: transparent;
+    
+    color: wheat;
+    padding: .3em;
+  }
+
+  .section-header a.reds:hover,
+  .section-header a.red:hover{
+    font-variant: small-caps;
+    /* font-size: 1em; */
+    box-shadow: 3px 2px 3px #00000075;
+    /* border: 2px solid red; */
+
+  }
+  

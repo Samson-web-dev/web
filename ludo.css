@@ -1,0 +1,16 @@
+body{
+
+}
+
+.play{
+    width: 750px;
+    height: 750px;
+    margin: auto;
+    border: 3px solid #333;
+}
+
+.lay{
+    width: 150px;
+    height: 150px;
+}
+
